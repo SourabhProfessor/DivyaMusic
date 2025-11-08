@@ -15,12 +15,11 @@ from pyrogram.errors import RPCError
 
 from youtubesearchpython.__future__ import VideosSearch
 
-from pytgcalls import PyTgCalls
+from py_tgcalls import PyTgCalls
 
-from pytgcalls.types import MediaStream
+from py_tgcalls.types import MediaStream
 
 from PIL import Image, ImageDraw
-
 
 # ---------------- CONFIG ----------------
 API_ID = int(os.getenv("API_ID", "16457832"))
