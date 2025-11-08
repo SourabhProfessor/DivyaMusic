@@ -21,12 +21,12 @@ from ntgcalls.types import AudioStream
 from PIL import Image, ImageDraw
 
 # ---------------- CONFIG ----------------
-API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("API_HASH")
-STRING_SESSION = os.getenv("STRING_SESSION")
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-MONGO_URI = os.getenv("MONGO_URI")
-API_BASE = os.getenv("API_BASE").rstrip("/") if os.getenv("API_BASE") else ""
+API_ID = int(os.getenv("API_ID", "16457832"))
+API_HASH = os.getenv("API_HASH", "3030874d0befdb5d05597deacc3e83ab")
+STRING_SESSION = os.getenv("STRING_SESSION", "")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "")
+MONGO_URI = os.getenv("MONGO_URI", "")
+API_BASE = os.getenv("API_BASE", "").rstrip("/") if os.getenv("API_BASE") else ""
 OWNER_ID = int(os.getenv("OWNER_ID", "0"))
 DURATION_LIMIT = 7200  # 2 hours
 
