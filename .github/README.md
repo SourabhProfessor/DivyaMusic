@@ -1,9 +1,7 @@
-<h2 align="center">
-    ──「 sᴘᴏᴛɪғʏ ダ ᴍᴜsɪᴄ 」──
-</h2>
+<h1 align="center">🎧 ──「 𝙎𝙋𝙊𝙏𝙄𝙁𝙔 ダ 𝙈𝙐𝙎𝙄𝘾 」── 🎵</h1>
 
 <p align="center">
-  <img src="https://files.catbox.moe/0d1eh1.jpg">
+  <img src="https://files.catbox.moe/0d1eh1.jpg" width="500px" style="border-radius:15px;">
 </p>
 
 <p align="center">
@@ -14,94 +12,50 @@
 <a href="https://github.com/BABY-MUSIC/JAZZY/commits/BABY-MUSIC"> <img src="https://img.shields.io/github/last-commit/BABY-MUSIC/JAZZY?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
 </p>
 
-<p align="center">
-  <img src="">
-</p>
+---
 
+## 🚀 Deployment Options
+
+### ☁️ Deploy on Koyeb
 [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?name=spotify-music&type=git&repository=BABY-MUSIC%2FSPOTIFY_MUSIC&branch=main&builder=dockerfile)
 
-
-## 🚀 Deploy on Heroku 
+### 💜 Deploy on Heroku
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/SourabhProfessor/DivyaMusic)
 
 ---
 
-### 🔧 Quick Setup
+## ⚙️ Quick Setup Guide
 
-1. **Upgrade & Update:**
-   ```bash
-   sudo apt-get update && sudo apt-get upgrade -y
-   ```
+Follow these simple steps to get your bot running in no time:
 
-2. **Install Required Packages:**
-   ```bash
-   sudo apt-get install python3-pip ffmpeg -y
-   ```
-3. **Setting up PIP**
-   ```bash
-   sudo pip3 install -U pip
-   ```
-4. **Installing Node**
-   ```bash
-   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash && source ~/.bashrc && nvm install v18
-   ```
-5. **Clone the Repository**
-   ```bash
-   git clone https://github.com/BABY-MUSIC/SPOTIFY_MUSIC && cd SPOTIFY_MUSIC
-   ```
-6. **Install Requirements**
-   ```bash
-   pip3 install -U -r requirements.txt
-   ```
-7. **Create .env  with sample.env**
-   ```bash
-   cp sample.env .env
-   ```
-   - Edit .env with your vars
-8. **Editing Vars:**
-   ```bash
-   vi .env
-   ```
-   - Edit .env with your values.
-   - Press `I` button on keyboard to start editing.
-   - Press `Ctrl + C`  once you are done with editing vars and type `:wq` to save .env or `:qa` to exit editing.
-9. **Installing tmux**
-    ```bash
-    sudo apt install tmux -y && tmux
-    ```
-10. **Run the Bot**
-    ```bash
-    bash start
-    ```
+```bash
+# 1️⃣ Upgrade and Update Packages
+sudo apt-get update && sudo apt-get upgrade -y
 
----
+# 2️⃣ Install Required Dependencies
+sudo apt-get install python3-pip ffmpeg -y
 
-### 🛠 Commands & Usage
+# 3️⃣ Upgrade PIP
+sudo pip3 install -U pip
 
-The Aviax Music Bot offers a range of commands to enhance your music listening experience on Telegram:
+# 4️⃣ Install Node.js (v18)
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+source ~/.bashrc
+nvm install v18
 
-| Command                 | Description                                 |
-|-------------------------|---------------------------------------------|
-| `/play <song name>`     | Play the requested song.                    |
-| `/pause`                | Pause the currently playing song.           |
-| `/resume`               | Resume the paused song.                     |
-| `/skip`                 | Move to the next song in the queue.         |
-| `/stop`                 | Stop the bot and clear the queue.           |
-| `/queue`                | Display the list of songs in the queue.     |
+# 5️⃣ Clone the Repository
+git clone https://github.com/BABY-MUSIC/SPOTIFY_MUSIC && cd SPOTIFY_MUSIC
 
-For a full list of commands, use `/help` in [telegram](https://t.me/BABY09_WORLD).
+# 6️⃣ Install Python Requirements
+pip3 install -U -r requirements.txt
 
----
-━━━━━━━━━━━━━━━━━━━━
+# 7️⃣ Setup Environment Variables
+cp sample.env .env
+vi .env
+# Press 'I' to edit → change your values → press Ctrl + C → type ':wq' to save
 
-<h3 align="center">
-    ─「 sᴜᴩᴩᴏʀᴛ 」─
-</h3>
+# 8️⃣ Install tmux (optional but recommended)
+sudo apt install tmux -y && tmux
 
-<p align="center">
-<a href="https://t.me/+OL6jdTL7JAJjYzVl"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
-</p>
-
-<p align="center">
-<a href="https://t.me/BABY09_WORLD"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
-</p>
+# 9️⃣ Run the Bot 🚀
+bash start
